@@ -1,0 +1,3 @@
+﻿  platformer.cpp
+D:\10.FPT_Trainning\homeworks-CPP\platformer\platformer\platformer.cpp(34,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  platformer.vcxproj -> D:\10.FPT_Trainning\homeworks-CPP\platformer\x64\Debug\platformer.exe
