@@ -1,0 +1,6 @@
+﻿  dateTransform.cpp
+D:\10.FPT_Trainning\Homeworks\dateTransform\dateTransform\dateTransform.cpp(17,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\10.FPT_Trainning\Homeworks\dateTransform\dateTransform\dateTransform.cpp(18,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\10.FPT_Trainning\Homeworks\dateTransform\dateTransform\dateTransform.cpp(26,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\10.FPT_Trainning\Homeworks\dateTransform\dateTransform\dateTransform.cpp(27,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  dateTransform.vcxproj -> D:\10.FPT_Trainning\Homeworks\dateTransform\x64\Debug\dateTransform.exe
