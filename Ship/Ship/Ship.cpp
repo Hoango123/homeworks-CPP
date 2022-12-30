@@ -1,6 +1,8 @@
 #include <iostream>
 #include <unordered_map>
 #include <functional>
+#include <vector>
+using namespace std;
 class Ship
 {
 public:
@@ -8,22 +10,22 @@ public:
     {
         for (int i = 0; i < containerCount; i++)
         {
-            this->containers.insert({ i, new int(fillContainer(i)) });
+            containers.push_back(i);
         }
     }
     int peekContainer(int containerIndex)
     {
-        return *this->containers.at(containerIndex);
+        return *(containers.begin()+containerIndex);
     }
 private:
-    std::unordered_map<int, int*> containers;
+    vector<int> containers;
 };
 
 #ifndef RunTests
 int main()
 {
-    Ship ship(10, [](int containerIndex) { return containerIndex; });
-    for (int i = 0; i < 10; i++) {
+    Ship ship(10000, [](int containerIndex) { return containerIndex; });
+    for (int i = 0; i < 10000; i++) {
         std::cout << "Container: " << i << ", cargo: " << ship.peekContainer(i) << "\n";
     }
 }
