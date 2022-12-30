@@ -1,0 +1,3 @@
+﻿  windowManager.cpp
+D:\10.FPT_Trainning\homeworks-CPP\windowManager\windowManager\windowManager.cpp(17,13): warning C4101: 'tmp': unreferenced local variable
+  windowManager.vcxproj -> D:\10.FPT_Trainning\homeworks-CPP\windowManager\x64\Debug\windowManager.exe
